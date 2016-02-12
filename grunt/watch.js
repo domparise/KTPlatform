@@ -13,9 +13,9 @@ module.exports = {
 		],
 		tasks: ['jshint:server', 'concurrent:dev']
 	},
-	sass: {
-		files: ['public/styles/**/*.scss'],
-		tasks: ['sass']
+	stylus: {
+		files: ['public/styles/**/*.styl'],
+		tasks: ['stylus']
 	},
 	livereload: {
 		files: [
