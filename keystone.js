@@ -11,8 +11,8 @@ var keystone = require('keystone');
 
 keystone.init({
 
-	'name': 'tutorial',
-	'brand': 'tutorial',
+	'name': 'KTPlatform',
+	'brand': 'KTPlatform',
 	
 	'stylus': 'public',
 	'static': 'public',

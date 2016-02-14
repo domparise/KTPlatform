@@ -8,7 +8,6 @@ module.exports = function(grunt) {
 
     // Load grunt tasks automatically
     require('load-grunt-tasks')(grunt);
-    // grunt.loadNpmTasks('grunt-contrib-stylus');
 
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
@@ -47,6 +46,10 @@ module.exports = function(grunt) {
     grunt.registerTask('serve', [
         'jshint',
         'concurrent:dev'
+    ]);
+
+    grunt.registerTask('default', [
+        'dev'
     ]);
 
 };

@@ -50,10 +50,10 @@ Enquiry.schema.methods.sendNotificationEmail = function(callback) {
 		new keystone.Email('enquiry-notification').send({
 			to: admins,
 			from: {
-				name: 'tutorial',
-				email: 'contact@tutorial.com'
+				name: 'KTPlatform',
+				email: 'contact@KTPlatform.com'
 			},
-			subject: 'New Enquiry for tutorial',
+			subject: 'New Enquiry for KTPlatform',
 			enquiry: enquiry
 		}, callback);
 		

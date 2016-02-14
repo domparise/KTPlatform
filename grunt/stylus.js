@@ -4,7 +4,7 @@ module.exports = {
     },
     app: {
         files: {
-            'public/index.min.css': ['public/styles/**/*.styl']
+            'public/css/index.min.css': ['styles/site.styl']
         }
     }
 };
